@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    position: fixed;
+    background-color: rgb(69, 100, 23);
+    height: 45px;
+    width: 100%;
+    z-index: 1;
+
+}
+.logo{
+    font-size: 22px;
+    position: relative;
+    left: 2%;
+    color: whitesmoke;
+    font-weight: bold;
+    line-height: 40px;
+}
+ul{
+    position: relative;
+    float: right;
+    margin-right: 12px;
+}
+ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 8px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.main_img{
+    width: 100%;
+    height: 250px;
+}
+.section1{
+    padding-top: 45px;
+}
+.img_text{
+    position: absolute;
+    top: 11%;
+    left: 32%;
+    color: black;
+    background-color: rgb(206, 112, 128);
+    padding-right: 20px; 
+    padding-left: 20px;
+    font-size: 30px;
+}
+.welcome_img{
+    width: 100%;
+    height: 250px;
+}
+.container{
+    padding-top: 50px;
+}
+.expert{
+     width: 90%;
+     height: 230px;
+}
+.label_txt{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+.ip_txt{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+.adm_int{
+    padding-top: 10px;
+}
+.ip_msg{
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+footer{
+    background-color: rgb(148, 204, 64);
+    height: 40px;
+    width: 100%;
+}
+.ft_txt{
+    text-align: center;
+    color: white;
+}
+.adm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.fm_des{
+    padding-top: 150px;
+}
+.label_des{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.login_form{
+    background-color: black;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.title_des{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
